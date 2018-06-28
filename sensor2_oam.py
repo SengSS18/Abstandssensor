@@ -23,9 +23,8 @@ try:
     while True:
        	messung = distance()
        	print messung
-       	time.sleep(0.1)
 	if messung > 150:
-            time.sleep(2.0)
+            time.sleep(1.0)
         else:
             if messung >= 150:
                 os.system("aplay Desktop/rechts.wav")
